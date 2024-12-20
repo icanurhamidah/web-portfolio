@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Penjualan Tahunan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 style="text-align: center;">Dashboard Penjualan Tahunan 2024</h1>
+        <div class="metrics-summary">
+            <div class="metric-card">
+                <h3>Total Pendapatan</h3>
+                <p>Rp 3.960.000.000</p>
+            </div>
+            <div class="metric-card">
+                <h3>Total Pesanan</h3>
+                <p>2.560</p>
+            </div>
+            <div class="metric-card">
+                <h3>Rata-rata Nilai Pesanan</h3>
+                <p>Rp 1.546.875</p>
+            </div>
+            <div class="metric-card">
+                <h3>Pertumbuhan YoY</h3>
+                <p>+3,65%</p>
+            </div>
+        </div>
+        <canvas id="salesChart"></canvas>
+        <table>
+            <thead>
+                <tr>
+                    <th>Bulan</th>
+                    <th>Pendapatan</th>
+                    <th>Pesanan</th>
+                    <th>Rata-rata Nilai</th>
+                    <th>Pertumbuhan (%)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>Januari</td><td>Rp 120.000.000</td><td>120</td><td>Rp 1.000.000</td><td>2,5</td></tr>
+                <tr><td>Februari</td><td>Rp 190.000.000</td><td>150</td><td>Rp 1.266.667</td><td>3,8</td></tr>
+                <tr><td>Maret</td><td>Rp 300.000.000</td><td>200</td><td>Rp 1.500.000</td><td>4,2</td></tr>
+                <tr><td>April</td><td>Rp 500.000.000</td><td>300</td><td>Rp 1.666.667</td><td>5,1</td></tr>
+                <tr><td>Mei</td><td>Rp 230.000.000</td><td>180</td><td>Rp 1.277.778</td><td>2,8</td></tr>
+                <tr><td>Juni</td><td>Rp 340.000.000</td><td>220</td><td>Rp 1.545.455</td><td>3,2</td></tr>
+                <tr><td>Juli</td><td>Rp 290.000.000</td><td>190</td><td>Rp 1.526.316</td><td>2,9</td></tr>
+                <tr><td>Agustus</td><td>Rp 430.000.000</td><td>250</td><td>Rp 1.720.000</td><td>4,1</td></tr>
+                <tr><td>September</td><td>Rp 320.000.000</td><td>210</td><td>Rp 1.523.810</td><td>3,5</td></tr>
+                <tr><td>Oktober</td><td>Rp 410.000.000</td><td>240</td><td>Rp 1.708.333</td><td>3,9</td></tr>
+                <tr><td>November</td><td>Rp 380.000.000</td><td>220</td><td>Rp 1.727.273</td><td>3,6</td></tr>
+                <tr><td>Desember</td><td>Rp 450.000.000</td><td>280</td><td>Rp 1.607.143</td><td>4,2</td></tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
